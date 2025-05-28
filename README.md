@@ -117,7 +117,7 @@ Generated Transaction ID: Ax3eIvu2znA3w... (truncated)
 
 ## Notes
 
-* Ensure the Twitter DOM is fully loaded before triggering.
+* Ensure the code runs before Twitter page loads (because the elements are removed as soon as page loads)
 * Works for GraphQL endpoints, tested with `/i/api/graphql/...`
 * May require updates if Twitter changes their animation logic or key format.
 
